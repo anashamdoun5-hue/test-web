@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الباك الكامل ديال الطوموبيل 3 فـ 1</title>
+<meta name="description" content="3 منتوجات للطوموبيل بثمن واحد. التوصيل فابور والخلاص ملي توصلك السلعة.">
+<meta property="og:title" content="الباك الكامل ديال الطوموبيل 3 فـ 1">
+<meta property="og:type" content="product">
+<meta name="theme-color" content="#14366B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#14366B; --blue-2:#1F4F96; --sun:#F5B700; --sun-d:#D99E00;
+  --bg:#F3F6FB; --card:#fff; --ink:#14213A; --muted:#5B6678; --line:#DCE3EE; --err:#C0392B; --ok:#1E8E5A;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:"Tajawal",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7;font-size:17px}
+.wrap{max-width:520px;margin:0 auto;padding:0 18px}
+header{background:var(--blue);color:#fff;padding:12px 0;text-align:center;font-weight:700}
+.hero{background:var(--blue);color:#fff;padding:8px 0 56px}
+.hero h1{font-size:30px;line-height:1.35;font-weight:800;margin-top:14px}
+.hero p{color:#C9D6EE;margin-top:6px}
+.price{display:flex;align-items:baseline;gap:12px;margin-top:18px}
+.price b{font-size:52px;font-weight:800;color:var(--sun);line-height:1}
+.price span{font-size:18px}
+.price del{color:#9DB2D8;font-size:20px}
+.pill{display:inline-block;background:var(--sun);color:#3A2A00;font-weight:800;border-radius:99px;padding:2px 14px;font-size:15px;margin-top:12px}
+.btn{display:block;width:100%;border:0;border-radius:12px;background:var(--sun);color:#3A2A00;font-family:inherit;font-weight:800;font-size:20px;padding:15px;text-align:center;text-decoration:none;cursor:pointer}
+.btn:hover{background:var(--sun-d)}
+.btn:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--blue-2);outline-offset:2px}
+.btn[disabled]{opacity:.6;cursor:wait}
+.hero .btn{margin-top:22px}
+.shot{margin:-34px 0 0;background:var(--card);border-radius:18px;padding:14px;border:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tile{background:var(--bg);border-radius:12px;padding:14px 8px;text-align:center}
+.tile .ic{font-size:38px;line-height:1.2}
+.tile img{width:100%;border-radius:8px;display:block}
+.tile h3{font-size:16px;margin-top:4px}
+.tile small{color:var(--muted)}
+.sum{margin-top:12px;display:flex;justify-content:space-between;align-items:center;font-weight:700;padding:4px 6px}
+.sum del{color:var(--muted);font-weight:400}
+.sum b{color:var(--blue);font-size:24px}
+section{padding:34px 0}
+h2{font-size:24px;line-height:1.4;margin-bottom:14px;color:var(--blue)}
+.feat{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:10px}
+.feat .ic{font-size:30px}
+.feat h3{font-size:18px}
+.feat p{color:var(--muted);font-size:16px}
+#commande{background:var(--card);border-top:6px solid var(--sun)}
+form{display:grid;gap:14px}
+label{font-weight:700;display:block;margin-bottom:4px}
+input,select{width:100%;font-family:inherit;font-size:18px;padding:13px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+.err{color:var(--err);font-size:15px;display:none;margin-top:3px}
+.bad input,.bad select{border-color:var(--err)}
+.bad .err{display:block}
+.note{display:flex;gap:8px;flex-wrap:wrap}
+.note span{background:#E8F1FF;color:var(--blue);border-radius:8px;padding:3px 10px;font-weight:700;font-size:15px}
+.total{display:flex;justify-content:space-between;font-weight:800;font-size:20px;border-top:1px dashed var(--line);padding-top:12px}
+.total b{color:var(--blue)}
+.fail{display:none;background:#FDECEA;color:var(--err);border-radius:10px;padding:10px;font-size:15px}
+.done{display:none;text-align:center;padding:20px 6px}
+.done .ok{width:64px;height:64px;border-radius:50%;background:var(--ok);color:#fff;font-size:34px;display:grid;place-items:center;margin:0 auto 12px}
+.steps{display:grid;gap:10px;counter-reset:s;list-style:none;padding:0}
+.steps li{counter-increment:s;display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.steps li::before{content:counter(s);flex:none;width:32px;height:32px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center;font-weight:800}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+summary{font-weight:700;cursor:pointer}
+details p{color:var(--muted);margin-top:6px;font-size:16px}
+footer{background:var(--blue);color:#C9D6EE;text-align:center;padding:22px 0 90px;font-size:15px}
+.bar{position:fixed;inset:auto 0 0 0;background:#fff;border-top:1px solid var(--line);padding:10px 18px calc(10px + env(safe-area-inset-bottom,0px));z-index:5;transition:transform .25s}
+.bar.hide{transform:translateY(110%)}
+.bar .btn{max-width:520px;margin:0 auto;font-size:18px;padding:12px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.bar{transition:none}}
+</style>
+</head>
+<body>
+
+<header><div class="wrap" id="brand"></div></header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1 id="title"></h1>
+    <p id="sub"></p>
+    <div class="price"><b id="price"></b><span>درهم</span><del id="old"></del></div>
+    <span class="pill" id="save"></span>
+    <a class="btn" href="#commande">كوموندي دابا</a>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="shot">
+    <div class="grid" id="items"></div>
+    <div class="sum"><span>الثمن بوحدو <del id="old2"></del></span><b id="price2"></b></div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>علاش هاد الباك؟</h2>
+    <div id="feats"></div>
+  </div>
+</section>
+
+<section id="commande">
+  <div class="wrap">
+    <h2>كوموندي الباك</h2>
+    <div class="note"><span>التوصيل فابور</span><span>الخلاص عند الاستلام</span></div>
+    <form id="f" novalidate style="margin-top:14px">
+      <div id="g-name"><label for="name">الاسم الكامل</label><input id="name" name="name" autocomplete="name" required><div class="err">كتب الاسم ديالك.</div></div>
+      <div id="g-phone"><label for="phone">رقم التيليفون</label><input id="phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="0612345678" required><div class="err">الرقم ماشي صحيح. مثال: 0612345678</div></div>
+      <div id="g-city"><label for="city">المدينة</label><input id="city" name="city" list="cities" autocomplete="address-level2" required><datalist id="cities"></datalist><div class="err">كتب المدينة ديالك.</div></div>
+      <div><label for="addr">العنوان (اختياري)</label><input id="addr" name="address" autocomplete="street-address"></div>
+      <div class="total"><span>المجموع، التوصيل فابور</span><b id="price3"></b></div>
+      <div class="fail" id="fail">الكوموند ما تصيفطش. شوف الكونيكسيون وعاود ضغط على «كوموندي دابا».</div>
+      <button class="btn" id="go" type="submit">كوموندي دابا</button>
+    </form>
+    <div class="done" id="done">
+      <div class="ok">✓</div>
+      <h2>توصلنا بالكوموند ديالك</h2>
+      <p>غادي نعيطو ليك قريب باش نأكدو الكوموند. خلي التيليفون حداك.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>كيفاش كتدوز الكوموند؟</h2>
+    <ol class="steps">
+      <li>كتعمر الفورمولير</li>
+      <li>كنعيطو ليك نأكدو الكوموند</li>
+      <li>كتوصلك السلعة وكتخلص فاليد</li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>باقي عندك شي سؤال؟</h2>
+    <div id="faq"></div>
+  </div>
+</section>
+
+<footer><div class="wrap" id="foot"></div></footer>
+
+<div class="bar" id="bar"><a class="btn" href="#commande">كوموندي دابا · <span id="price4"></span> درهم</a></div>
+
+<script>
+/* ====== بدّل غير هاد الجزء ====== */
+var CONFIG = {
+  brand: "اسم_الستور",
+  title: "الباك الكامل ديال الطوموبيل",
+  sub: "3 منتوجات فثمن واحد، توصلك حتى لباب الدار.",
+  price: 249,                 // الثمن الجديد
+  oldPrice: 420,              // الثمن القديم
+  items: [                    // img: ساول "img/xxx.webp" إلا عندك تصويرة
+    {name:"حامل التيليفون", price:119, emoji:"📱", img:""},
+    {name:"شارجور 3 فـ 1",   price:169, emoji:"🔌", img:""},
+    {name:"معطر الطوموبيل",  price:132, emoji:"🌸", img:""}
+  ],
+  feats: [
+    {ic:"🧲", h:"حامل مغناطيسي", p:"التيليفون قدامك وفبلاصتو، بلا ما تبقى شادو بيدك."},
+    {ic:"⚡", h:"شارجور سريع",    p:"شارجي أكثر من جهاز فنفس الوقت."},
+    {ic:"🌸", h:"ريحة زوينة",      p:"معطر كيدير لمسة ديكور للطابلو."}
+  ],
+  faq: [
+    ["واش الثمن فيه كلشي؟","إيه، الثمن فيه المنتوجات كاملين والتوصيل فابور."],
+    ["شحال كيتعطل التوصيل؟","من 24 حتى لـ 48 ساعة، وكنأكدو معاك الموعد فالتيليفون."],
+    ["كيفاش كنخلص؟","كاش للليفرور ملي توصلك السلعة."]
+  ],
+  cities: ["الدار البيضاء","الرباط","فاس","مراكش","طنجة","أكادير","مكناس","وجدة","القنيطرة","تطوان","سلا","تمارة","المحمدية","الجديدة","بني ملال","خريبكة","الناظور","تازة","العيون","آسفي"],
+  endpoint: "",               // رابط Google Apps Script (Web App). خليه خاوي باش تجرب بلا ما تصيفط
+  pixelId: ""                 // Facebook Pixel ID (اختياري)
+};
+/* ================================ */
+
+(function(){
+  var C = CONFIG, $ = function(id){return document.getElementById(id)};
+  function esc(s){var d=document.createElement("div");d.textContent=s;return d.innerHTML}
+  document.title = C.title + " | " + C.brand;
+  $("brand").textContent = C.brand;
+  $("title").textContent = C.title;
+  $("sub").textContent = C.sub;
+  ["price","price2","price3","price4"].forEach(function(i){$(i).textContent = C.price});
+  $("old").textContent = C.oldPrice + " درهم";
+  $("old2").textContent = C.oldPrice + " درهم";
+  $("save").textContent = "وفّر " + (C.oldPrice - C.price) + " درهم";
+  $("foot").textContent = C.brand;
+  $("items").innerHTML = C.items.map(function(it){
+    var pic = it.img ? '<img src="'+esc(it.img)+'" alt="'+esc(it.name)+'" loading="lazy" width="200" height="200">' : '<div class="ic" aria-hidden="true">'+it.emoji+'</div>';
+    return '<div class="tile">'+pic+'<h3>'+esc(it.name)+'</h3><small>'+it.price+' درهم</small></div>';
+  }).join("");
+  $("feats").innerHTML = C.feats.map(function(f){
+    return '<div class="feat"><div class="ic" aria-hidden="true">'+f.ic+'</div><div><h3>'+esc(f.h)+'</h3><p>'+esc(f.p)+'</p></div></div>';
+  }).join("");
+  $("faq").innerHTML = C.faq.map(function(q){
+    return '<details><summary>'+esc(q[0])+'</summary><p>'+esc(q[1])+'</p></details>';
+  }).join("");
+  $("cities").innerHTML = C.cities.map(function(c){return '<option value="'+esc(c)+'">'}).join("");
+
+  /* Facebook Pixel */
+  function track(ev, data){ try{ if(window.fbq) fbq("track", ev, data||{}); }catch(e){} }
+  if(C.pixelId){
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version="2.0";n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");
+    fbq("init", C.pixelId); fbq("track","PageView");
+  }
+
+  /* شريط الكوموند الثابت: كيتخبا ملي توصل للفورمولير */
+  var bar=$("bar"), form=$("commande");
+  if("IntersectionObserver" in window){
+    new IntersectionObserver(function(e){bar.classList.toggle("hide", e[0].isIntersecting)}).observe(form);
+  }
+
+  /* الفورمولير */
+  var f=$("f"), btn=$("go"), fail=$("fail"), sent=false;
+  function bad(id,on){$(id).classList.toggle("bad",on)}
+  f.addEventListener("submit", function(ev){
+    ev.preventDefault();
+    if(sent) return;
+    var name=f.name.value.trim(), phone=f.phone.value.replace(/[\s.\-]/g,""), city=f.city.value.trim();
+    if(/^\+212/.test(phone)) phone="0"+phone.slice(4);
+    var okName=name.length>=3, okPhone=/^0[5-7]\d{8}$/.test(phone), okCity=city.length>=2;
+    bad("g-name",!okName); bad("g-phone",!okPhone); bad("g-city",!okCity);
+    if(!(okName&&okPhone&&okCity)) return;
+    fail.style.display="none"; btn.disabled=true; btn.textContent="كنصيفطو...";
+    var order = {
+      date: new Date().toISOString(), name:name, phone:phone, city:city, address:f.address.value.trim(),
+      product: C.title, total: C.price, page: location.href
+    };
+    var send = C.endpoint
+      ? fetch(C.endpoint,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(order)})
+      : Promise.resolve();            /* بلا endpoint: وضع تجريبي، ما كيتصيفط والو */
+    send.then(function(){
+      sent=true;
+      track("Lead",{value:C.price,currency:"MAD"});
+      f.style.display="none"; $("done").style.display="block"; bar.style.display="none";
+      $("done").scrollIntoView({block:"center"});
+    }).catch(function(){
+      btn.disabled=false; btn.textContent="كوموندي دابا"; fail.style.display="block";
+    });
+  });
+})();
+</script>
+</body>
+</html>
